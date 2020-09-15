@@ -2,7 +2,7 @@ function fetchBooks() {
   return fetch('https://anapioficeandfire.com/api/books')
   //returns the json structure
   .then(resp => resp.json())
-  //logs the data
+  //logs the data while calling renderBooks
   .then(json => renderBooks(json));
 }
 
