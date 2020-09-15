@@ -3,7 +3,7 @@ function fetchBooks() {
   //returns the json structure
   .then(resp => resp.json())
   //logs the data
-  .then(json => console.log(json));
+  .then(json => renderBooks(json));
 }
 
 function renderBooks(json) {
