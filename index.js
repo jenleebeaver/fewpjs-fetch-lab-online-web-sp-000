@@ -15,6 +15,8 @@ function renderBooks(json) {
   })
 }
 
+return renderBooks
+
 //using 'DOMContentLoaded' to load html first
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
