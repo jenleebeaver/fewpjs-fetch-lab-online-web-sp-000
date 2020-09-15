@@ -13,7 +13,7 @@ function renderBooks(json) {
   })
 }
 
-//using 'DOMContentLoaded' to load html first 
+//using 'DOMContentLoaded' to load html first
 document.addEventListener('DOMContentLoaded', function() {
   fetchBooks()
 })
